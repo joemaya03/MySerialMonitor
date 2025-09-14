@@ -1,0 +1,22 @@
+{
+  "baudrate": 115200,
+  "line_ending": "CRLF",
+  "show_timestamps": true,
+  "auto_scroll": true,
+  "max_lines": 10000,
+  "log_file_size_mb": 10,
+  "auto_save": true,
+  "auto_save_interval": 60,
+  "theme": "dark",
+  "font_family": "Consolas",
+  "font_size": 10,
+  "log_level_filter": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "window_geometry": "01d9d0cb00030000000001cc0000009f000005b300000379000001cc000000be000005b30000037900000000000000000780000001cc000000be000005b300000379",
+  "splitter_state": "000000ff00000001000000020000012c000002bc01ffffffff010000000100"
+}
