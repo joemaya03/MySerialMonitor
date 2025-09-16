@@ -55,7 +55,7 @@ jobs:
         '@ | Out-File -FilePath dist\install.bat -Encoding ASCII
     
     - name: Upload Windows artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: SerialMonitor-Windows
         path: |
@@ -155,7 +155,7 @@ jobs:
           "dist/"
     
     - name: Upload macOS artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: SerialMonitor-macOS
         path: |
@@ -262,7 +262,7 @@ jobs:
         mv serial-monitor-deb.deb SerialMonitor-1.0.0-linux-amd64.deb
     
     - name: Upload Linux artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: SerialMonitor-Linux
         path: |
